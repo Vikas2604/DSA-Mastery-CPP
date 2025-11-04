@@ -6,8 +6,7 @@ It is organized **week by week** and **day by day**, covering everything from **
 ---
 
 ## 📂 Structure
-- `Week_X/C++/Day_Y` → C++ language learning (syntax, OOP, STL, etc.)
-- `Week_X/Day_Y` → DSA problems (arrays, strings, recursion, etc.)
+- `Day_Y` → C++ language learning (syntax, OOP, STL, etc.) && DSA problems (arrays, strings, recursion, etc.)
 
 ---
 

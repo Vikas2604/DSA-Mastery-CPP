@@ -1,4 +1,6 @@
 #include<iostream>
+#include<any>
+#include<vector>
 using namespace std;
 
 void whichWeekDay(int day){
@@ -35,6 +37,10 @@ void whichWeekDay(int day){
 int main(){
 
     whichWeekDay(3);
+    cout << endl;
+    std::vector<std::any> arr = {1,true, std::string("hello"), 56};
+
+    cout << any_cast<string>(arr[2]) << endl;
     return 0;
 
 };

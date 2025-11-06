@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string> // We are using this because we will be using string data type
 using namespace std;
 
 void types(){
@@ -20,6 +21,18 @@ void types(){
   bool foodSucks = false; // Bad naming dont follow it.
   cout << isCodingFun << endl;
   cout << foodSucks << endl;
+
+  char b = 'B';
+  cout << b << endl;
+  char c = 67; // We are using ASCII Value here 67 = C
+  cout << c << endl;
+
+  string name = "Vikas";
+  cout << name << endl;
+  
+  // auto d; This is not allowed because when we use the auto key word we have to initialize it as well.
+  auto e = 10;
+  cout << e << endl;
 
 }
 

@@ -39,9 +39,21 @@ void assignment(){
   cout << a << "\n";
 }
 
+// Function to perform all the comparison operators
+void comparison(int c, int d){
+  cout << (c == d) << "\n"; // Equal to operator
+  cout << (c != d) << "\n"; // Not equal to operator 
+  cout << (c > d) << "\n";  // Greater than operator
+  cout << (c < d) << "\n";  // Lesser than operator
+  cout << (c >= d) << "\n"; // Greater than or equal to operator
+  cout << (c <= d) << "\n"; // Lesser than or equal to operator
+
+} 
+
 int main(){
 
   // arithemetic(10,2);
-  assignment();
+  // assignment();
+  comparison(5,10);
 
 }

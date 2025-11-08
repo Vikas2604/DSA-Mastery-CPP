@@ -27,10 +27,15 @@ void learningStrings(){
   // cout << a.copy() << "\n";
 
   // Concatination of string using + operator
-  string c = "10";
-  int d = 20;
-  cout << c + d << "\n";
+  // string c = "10";
+  // int d = 20;
+  // cout << c + d << "\n";
   // cout << "c" + "d" << "\n";
+  
+  // Length of a string
+  string greeting1 = "Hello, I am Vikas.";
+  cout << greeting1.length() << "\n";
+  
 
 }
 

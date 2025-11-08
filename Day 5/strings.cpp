@@ -26,6 +26,12 @@ void learningStrings(){
   cout << a.compare(b) << "\n";
   // cout << a.copy() << "\n";
 
+  // Concatination of string using + operator
+  string c = "10";
+  int d = 20;
+  cout << c + d << "\n";
+  // cout << "c" + "d" << "\n";
+
 }
 
 int main(){

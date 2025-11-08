@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<cmath>
 using namespace std;
 
 void learningStrings(){
@@ -35,7 +36,8 @@ void learningStrings(){
   // Length of a string
   string greeting1 = "Hello, I am Vikas.";
   cout << greeting1.length() << "\n";
-  
+  cout << log(2);
+  cout << log10(2);
 
 }
 

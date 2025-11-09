@@ -6,13 +6,13 @@ void checkingCase(){
 char myLetter;
 cout << "Enter the letter:";
 cin >> myLetter;
-if(myLetter >= 'A' && myLetter <='Z'){
-  cout << "It is a Upper Case Letter.";
-}else if(myLetter >='a' && myLetter <='z'){
-  cout << "It is a Lower Case Letter.";
-}else{
+  if(myLetter >= 'A' && myLetter <='Z'){
+    cout << "It is a Upper Case Letter.";
+  }else if(myLetter >='a' && myLetter <='z'){
+    cout << "It is a Lower Case Letter.";
+  }else{
   cout << "The entered digit isnt a alphabet.";
-}
+  }
 
 }
 

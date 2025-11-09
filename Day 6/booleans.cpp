@@ -19,7 +19,11 @@ void boolean(){
   cout << isCodingFun << "\n";
   cout << isLifeFun << "\n";
 
+  // Boolean Expressions
+  cout << (10 > 9)<< "\n";
+  cout << (10 == 9) << "\n";
 }
+
 
 
 int main(){

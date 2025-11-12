@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
 
 void arrayEle(){
@@ -40,10 +41,29 @@ void omitArraySize(){
   }
 }
 
+void dynamicArray(){
+  // Dynamic Array or also known as Vectors
+  vector<int> myNum = {10, 20, 30};
+
+  myNum.push_back(40);
+
+  for(int i : myNum){
+    cout << i << "\n";
+  }
+}
+
+void sizeOfArray(){
+  int myNum[3] = {10, 20, 30};
+ int getArrayLength = sizeof(myNum) / sizeof(myNum[0]);
+ cout << getArrayLength;
+}
+
 int main(){
   // arrayEle();
   // loopArray();
   // forEachLoop();
-  omitArraySize();
+  // omitArraySize();
+  // dynamicArray();
+  sizeOfArray();
   return 0;
 }

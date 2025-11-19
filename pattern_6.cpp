@@ -9,7 +9,7 @@
 using namespace std;
 
 void pattern6(){
-  for(int i = 5; i <= 5; i--){
+  for(int i = 6; i <= 6; i--){
     for(int j = 0; j < i; j++){
       cout << j << " ";
     }

@@ -21,3 +21,5 @@ int main(){
   pattern6();
   return 0;
 }
+
+// ...

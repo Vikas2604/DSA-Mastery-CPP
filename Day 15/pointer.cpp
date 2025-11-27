@@ -12,7 +12,7 @@ void pointer()
   cout << &food << "\n"; // This and ptr will have the same output. The output keeps changing, but both ptr and &food will have the same output
 
   // if we use the * operator on the pointer variable, it will print the initial value that was assigned to food
-  cout << *ptr << "\n";
+  cout << *ptr << "\n"; // Dereference
 }
 
 int main()
